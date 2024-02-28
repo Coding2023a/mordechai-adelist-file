@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="dom-manipulation.js" defer></script>
+    <title>dom maipulation Examples</title>
+</head>
+<body>
+    <div>
+        <h1 id="changeMe">click the button to change me!</h1>
+        <button onclick="changeText()">change text</button>
+    </div>
+    <div>
+        <button onclick="toggleVisibility()">toggle Visibility</button>
+        <div id="hiddenElement" class="hidden">This element is hidden by default!</div>
+    </div>
+    <div>
+        <ul id="myList">
+            <li>Item 1</li>
+<li>Item 2</li>
+<li>Item 3</li>
+        </ul>
+        <button onclick="addItem()">Add Item</button>
+    </div>
+</body>
+</html>
